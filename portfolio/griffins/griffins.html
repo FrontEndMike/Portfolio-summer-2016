@@ -1,0 +1,231 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html"; charset="utf-8" />
+	<meta name="description" content="The Placeholder Site">
+	<meta name="MLJ Webdesign" content="SitePoint">
+	<title>MLJ Webdesign</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/jquery-1.10.2.min.js"> </script>
+	<link href='https://fonts.googleapis.com/css?family=Bevan' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Bevan|Overlock' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
+	
+	<script>
+   
+<!----- JQUERY FOR SLIDING NAVIGATION --->   
+$(document).ready(function() {
+  $('a[href*=#]').each(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+    && location.hostname == this.hostname
+    && this.hash.replace(/#/,'') ) {
+      var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
+      var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
+       if ($target) {
+         var targetOffset = $target.offset().top;
+
+<!----- JQUERY CLICK FUNCTION REMOVE AND ADD CLASS "ACTIVE" + SCROLL TO THE #DIV--->   
+         $(this).click(function() {
+            $("#nav li a").removeClass("active");
+            $(this).addClass('active');
+           $('html, body').animate({scrollTop: targetOffset}, 1000);
+           return false;
+         });
+      }
+    }
+  });
+
+});
+
+
+</script>
+
+
+<!-- DC Contact Form CSS -->
+<link type="text/css" rel="stylesheet" href="dreamcodes/contact_forms/css/tsc_form_contact_dark.css" />
+<link type="text/css" rel="stylesheet" href="dreamcodes/contact_forms/css/tsc_form_contact_light.css" />
+ 
+<!-- DC Contact Form JS -->
+<script type="text/javascript" src="dreamcodes/contact_forms/js/tsc_form_contact.js"></script>
+	
+</head>
+
+<body>
+<!-----LINK TO SOCIAL MEDIA
+<div id="demo_back">
+<a href="#" class="lpanel">  Follow me on Twitter </a>
+<a href="#" class="rpanel"> Friend me on Facebook </a>
+
+</div> ------>
+
+<!----- HEADER START ---->
+<header id="header">
+<div class="content">
+<div id="logo"><a href=""> Griffin's</a></div>
+
+<nav id="nav">
+	<ul>
+		<li><a href="#slide1" class="active" title="Next Selection">Home </a></li>
+		<li><a href="#slide2" title="Next Selection">About Us </a></li>
+		<li><a href="#slide3" title="Next Selection">Reviews </a></li>
+		<li><a href="#slide4" title="Next Selection">Services </a></li>
+		<li><a href="#slide5" title="Next Selection">Contact Us</a></li>
+	</ul>
+</nav>
+</div>
+</header>
+<!------ Header End ---->
+
+<!----- Slides Start----->
+		<div id="slide1">
+			<div class="content">
+				<div id="christmas_tree"> </div>
+
+		<h2>Griffin's</h2>
+				<h1>BIKE SHOP</h1>
+				<div id="divider"> </div>
+				<h3>Bicylce Repair</h3>
+
+			</div>
+		</div>
+		
+		<div id="slide2">
+			<div class="content">
+			<div class="quote_container">
+		   
+			<h3>About Us</h3>
+			 <h3 class="quotes">
+			<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis nulla, ac pulvinar eros. Mauris neque ante, suscipit ac lorem et, ultricies faucibus dui. Suspendisse eu vehicula nunc. In hac habitasse platea dictumst. Fusce vestibulum facilisis interdum. Quisque condimentum mi nec odio aliquet consequat. Donec in elit molestie, viverra felis id, lacinia ligula. Donec fringilla nibh tellus, sit amet bibendum lacus pretium et. Nullam tempor metus vitae interdum rhoncus.
+			<p>
+			Nam placerat porta elit sed lobortis. Pellentesque viverra sed nisl sit amet blandit. Nunc fermentum fermentum elit, consequat sollicitudin orci cursus et. Vivamus lobortis et nisl et cursus. Praesent eu porta lectus. Duis justo dolor, ultrices quis rhoncus quis, imperdiet quis leo. Quisque eu ultrices risus, ac hendrerit ligula. Sed egestas urna nisi, quis molestie nulla mollis at. Integer sit amet lacinia mi, eu consequat massa. Praesent molestie et lacus quis maximus. Donec maximus, urna nec volutpat ultrices, urna lacus consectetur justo, eu interdum metus lacus sed erat. Nulla vitae nulla eu eros sollicitudin commodo. Pellentesque non sodales urna.
+			<p>
+			Integer id viverra lacus. Phasellus efficitur risus ac dictum congue. Maecenas at elit viverra, malesuada mi quis, pretium diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras accumsan justo diam, non suscipit ante vehicula eu. Fusce eget enim vitae arcu mattis porta id sit amet lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam non cursus justo.</h3>
+
+		</div> 
+		</div> 
+    </div> 
+
+			<div id="slide3">
+			<div class="content">
+			<div class="quote_container">
+		    <h3>Reviews</h3>
+			<h3 class="quotes"><img src="img/seuss.png"/> “Pecan pie Lafayette levee couillon Lafayette. Fais do do praline Boudreaux trail ride interstate. Envie praline turducken bourre sugar cane. ” -Dr. Seuss</h3>
+		   <h4 class="author_name_white">
+		  
+		  <h3 class="quotes"><img src="img/norman.png"/> “Sugar cane hot sauce hot sauce smoked sausage iced tea pirogue merci beaucoup turducken okra gumbo pecan pie. Cayenne jambalaya fishing boucherie cajun beignet. Sugar cane boucherie sa fait chaud Lafayette tasso make a roux make a roux smoked sausage. ” -Norman</h3>
+		
+		  
+		  <h3 class="quotes"><img src="img/bob.png"/> “Smoked sausage alligator ca c'est bon praline hunting. Fried catfish Boudreaux pirogue trail ride bisque. Alligator Mardi Gras make a roux crawfish coffee downtown cajun smoked sausage. Zydeco Fauxcheaux alligator gumbo praline macque choux Fauxcheaux. Hunting sauce piquante Fauxcheaux beer food pecan pie red beans & rice. ” -Bob</h3>
+		
+		</div> 
+		</div> 
+    </div> 
+	
+		<div id="slide4">
+			<div class="content">
+			<div class="quote_container">
+			<h3>Services</h3>
+		    <img src="img/garage-owner.png" width="125" height="125" >
+			<h5>What we do</h5><p>
+			
+<div id="div_container1">
+
+Our repair shops can handle any repair, on any bike (no matter where you bought it!), from a quick flat tire fix to an in-depth overhaul of every system on your bike. We're proficient with modern technology plus the classic stuff, so we're equipped for what you ride and any repair it may need.
+<p>
+Every REI shop offers the following service packages—in addition to a complete range of repairs—to keep your trusty ride in prime condition, or to bring a long-neglected bike back to life:
+<p></div>
+
+<div id="div_container2">
+<h5>Bronze Tune:</h5>
+If your bike is in good shape, our entry level package includes everything necessary to keep it that way.</h6>
+<p>
+<h4>It includes:</h4>
+<ul>
+<li>Wheel truing</li>
+<li>Brake and shifting adjustments</li>
+<li>Drivetrain lubrication</li>
+<li>Tire inflation</li>
+<li>Full safety inspection</li>
+</ul>
+<p>
+<h5>Silver Tune:</h5>
+<h6>Our most popular service is the perfect choice for a bike that sees regular use, or even one coming out of storage.</h6>
+<p>
+<h4>It includes:</h4>
+<ul>
+<li>All services in the Bronze Tune</li>
+<li>Precision bearing adjustments to the steering system and wheels</li>
+<li>Light cleaning of the bike's frame and wheels</li>
+</ul>
+</div>
+<div id="div_container3">
+<h5>Gold Tune:</h5>
+If your bike sees heavy use, especially on pavement, take advantage of this package.
+<p>
+<h4>It includes:</h4>
+<ul>
+<li>All services in the Silver Tune</li>
+<li>Deep cleaning of the entire drivetrain in our ultrasonic cleaners, to remove stubborn road grime</li>
+<li>Thorough re-tensioning of spokes to ensure long life of your wheels</li>
+</ul>
+<p>
+<h5>Platinum Tune:</h5>
+For the ultimate in performance, this service ensures a long-lasting reliable ride.
+<p>
+<h4>It includes:</h4>
+<ul>
+<li>All services in the Gold Tune</li>
+<li>Thorough disassembly, cleaning and re-greasing of all bearing systems for long life</li>
+<li>Our most thorough wheel true service ensuring the smoothest ride possible</li>
+</ul>
+</div>
+		  
+		</div> 
+		</div> 
+    </div> 
+	
+		<div id="slide5">
+			<div class="content">
+			<div class="quote_container">
+			
+		<div id="contact-area">
+			<h2>Contact Us <img src="img/email1.png"  width="50" height="50"></h2>
+			<form method="post" action="#">
+				<label for="Name">Name:</label>
+				<input type="text" name="Name" id="Name" />
+				
+				<label for="City">City:</label>
+				<input type="text" name="City" id="City" />
+	
+				<label for="Email">Email:</label>
+				<input type="text" name="Email" id="Email" />
+				
+				<label for="Message">Message:</label><br />
+				<textarea name="Message" rows="20" cols="20" id="Message"></textarea>
+
+				<input type="image" name="submit" value="Submit" class="submit-button" src="img/envelope.png" width="65" height="65" alt="Submit"/>
+			</form>
+			
+			<div style="clear: both;"></div>
+			
+		
+		
+		</div>
+
+		</div>
+			<div id="copyright"><a href="http://mljwebdesign.com/">Copyright MLJWebdesign.com </a></div>
+		</div> 
+    </div> 
+		
+<!---- SLIDES END ---->		
+		
+</body>
+
+</html>
+
